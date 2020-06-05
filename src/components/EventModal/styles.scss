@@ -1,0 +1,143 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 148px;
+  height: 225px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0 3px 18px #00000029;
+  border: 1px solid #43425D;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1000;
+  padding: 25px;
+
+  &__arrow {
+    position: absolute;
+    top: -16px;
+    left: 87px;
+  }
+
+  &__arrow-change{
+    position: absolute;
+    top: -14px;
+    left: 90px;
+  }
+
+  &__close {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+
+    &:hover {
+      cursor: pointer
+    }
+  }
+
+  input {
+    outline: none;
+    border-style: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D6D6D6;
+    width: 100%;
+    font-family: "Sourse Sans Pro", sans-serif;
+  }
+
+  .error{
+    border-bottom: 1px solid #FF5F5F;
+    &::placeholder{
+      color: #FF5F5F;
+      font-size: 12px;
+    }
+  }
+
+  input[type="text"] {
+    color: #6A6996;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  input::placeholder {
+    color: #D6D6D6;
+    font-family: "Sourse Sans Pro", sans-serif;
+    font-size: 9px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    position: fixed;
+  }
+
+  input[type=time] {
+    color: #6A6996;
+    font-family: "Sourse Sans Pro", sans-serif;
+  }
+
+  /* AM/PM */
+  input[type=time]::-webkit-datetime-edit-ampm-field {
+    background-color: #7155d3;
+    border-radius: 15%;
+    color: #fff;
+    padding: 19px 13px;
+  }
+
+  /* 'X' button for resetting/clearing time */
+  input[type=time]::-webkit-clear-button {
+    display: none;
+  }
+
+  /* Up/Down arrows for incrementing/decrementing the value */
+  input[type=time]::-webkit-inner-spin-button {
+    display: none;
+  }
+
+  &__name {
+
+  }
+
+  &__date {
+    :nth-child(2) {
+      position: absolute;
+      right: 25px;
+      top: 75px;
+    }
+  }
+
+  &__time {
+    :nth-child(2) {
+      position: absolute;
+      right: 25px;
+      top: 125px;
+    }
+  }
+
+  &__notes {
+
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 25px;
+
+    :nth-child(1) {
+      color: #FF5F5F;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    :nth-child(2) {
+      color: #6A6996;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.disable {
+  display: none;
+}
