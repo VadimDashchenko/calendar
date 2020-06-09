@@ -316,14 +316,14 @@
                     src: "/assets/icons/bell.svg",
                     alt: "chat"
                 }), s.a.createElement("img", {
-                    src: "assets/icons/bell.svg",
+                    src: "/assets/icons/bell.svg",
                     alt: "notification"
                 })), s.a.createElement("div", {className: "header__user"}, s.a.createElement("span", {className: "header__user-name"}, "John Doe"), s.a.createElement("img", {
-                    src: "assets/icons/arrow.svg",
+                    src: "../assets/icons/arrow.svg",
                     alt: "down"
                 }), s.a.createElement("img", {
                     className: "header__user-avatar",
-                    src: "assets/icons/avatar.png",
+                    src: "../assets/icons/avatar.png",
                     alt: "user"
                 }))))
             }), X = (n(199), function (e) {
