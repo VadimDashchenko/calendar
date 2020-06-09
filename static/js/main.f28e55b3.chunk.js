@@ -263,19 +263,19 @@
             }(r.Component), F = Object(i.b)(null, a)(L), R = (n(197), function () {
                 return s.a.createElement("div", {className: "sidebar"}, s.a.createElement("div", {className: "sidebar__header"}, s.a.createElement("span", null, "impekable")), s.a.createElement("ul", {className: "sidebar__list"}, s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "/calendar/assets/icons/home.svg",
+                    src: "/assets/icons/home.svg",
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Home")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/home.svg",
+                    src: "../assets/icons/home.svg",
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Dashboard")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/inbox.svg",
+                    src: "assets/icons/inbox.svg",
                     alt: "inbox"
                 }), s.a.createElement("a", {href: "#"}, "Inbox")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/home.svg",
+                    src: "/calendar/assets/icons/home.svg",
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Products")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
