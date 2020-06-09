@@ -323,7 +323,7 @@
                     alt: "down"
                 }), s.a.createElement("img", {
                     className: "header__user-avatar",
-                    src: "/calendar/assets/icons/avatar.png",
+                    src: "/calendar/assets/icons/Avatar.png",
                     alt: "user"
                 }))))
             }), X = (n(199), function (e) {
