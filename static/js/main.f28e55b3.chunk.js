@@ -263,15 +263,15 @@
             }(r.Component), F = Object(i.b)(null, a)(L), R = (n(197), function () {
                 return s.a.createElement("div", {className: "sidebar"}, s.a.createElement("div", {className: "sidebar__header"}, s.a.createElement("span", null, "impekable")), s.a.createElement("ul", {className: "sidebar__list"}, s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "/assets/icons/home.svg",
+                    src: "/calendar/assets/icons/home.svg",
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Home")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../assets/icons/home.svg",
+                    src: "/calendar/assets/icons/home.svg",
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Dashboard")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "assets/icons/inbox.svg",
+                    src: "/calendar/assets/icons/inbox.svg",
                     alt: "inbox"
                 }), s.a.createElement("a", {href: "#"}, "Inbox")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
@@ -279,51 +279,51 @@
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Products")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/invoices.svg",
+                    src: "/calendar/assets/icons/invoices.svg",
                     alt: "invoices"
                 }), s.a.createElement("a", {href: "#"}, "Invoices")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/home.svg",
+                    src: "/calendar/assets/icons/home.svg",
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Customers")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/home.svg",
+                    src: "/calendar/assets/icons/home.svg",
                     alt: "home"
                 }), s.a.createElement("a", {href: "#"}, "Chat Room")), s.a.createElement("li", {className: "active"}, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/calendar.svg",
+                    src: "/calendar/assets/icons/calendar.svg",
                     alt: "calendar"
                 }), s.a.createElement("a", {href: "#"}, "Calendar")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/help.svg",
+                    src: "/calendar/assets/icons/help.svg",
                     alt: "help"
                 }), s.a.createElement("a", {href: "#"}, "Help Center")), s.a.createElement("li", null, s.a.createElement("img", {
                     className: "sidebar__icon",
-                    src: "../../assets/icons/settings.svg",
+                    src: "/calendar/assets/icons/settings.svg",
                     alt: "settings"
                 }), s.a.createElement("a", {href: "#"}, "Settings"))))
             }), H = (n(198), function () {
                 return s.a.createElement("div", {className: "header"}, s.a.createElement("div", {className: "header__search"}, s.a.createElement("img", {
-                    src: "../../assets/icons/search.svg",
+                    src: "/calendar/assets/icons/search.svg",
                     alt: "search"
                 }), s.a.createElement("input", {
                     type: "text",
                     placeholder: "Search transactions, invoices or help"
                 })), s.a.createElement("div", {className: "header__user-block"}, s.a.createElement("div", {className: "header__icons"}, s.a.createElement("img", {
-                    src: "../../assets/icons/help.svg",
+                    src: "/calendar/assets/icons/help.svg",
                     alt: "help"
                 }), s.a.createElement("img", {
-                    src: "../../assets/icons/bell.svg",
+                    src: "/calendar/assets/icons/bell.svg",
                     alt: "chat"
                 }), s.a.createElement("img", {
-                    src: "../../assets/icons/bell.svg",
+                    src: "/calendar/assets/icons/bell.svg",
                     alt: "notification"
                 })), s.a.createElement("div", {className: "header__user"}, s.a.createElement("span", {className: "header__user-name"}, "John Doe"), s.a.createElement("img", {
-                    src: "../../assets/icons/arrow.svg",
+                    src: "/calendar/assets/icons/arrow.svg",
                     alt: "down"
                 }), s.a.createElement("img", {
                     className: "header__user-avatar",
-                    src: "../../assets/icons/avatar.png",
+                    src: "/calendar/assets/icons/avatar.png",
                     alt: "user"
                 }))))
             }), X = (n(199), function (e) {
